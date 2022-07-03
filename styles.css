@@ -1,3 +1,142 @@
-* {
-    color: red;
+h1 {
+  color: black;
+}
+
+h2 {
+  color: rgb(158, 136, 136);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+
+  /*Both do the same thing, bottom code just has all 3 effects on same line*/
+
+  font: normal 12px Arial, Helvetica, sans-serif;
+
+  line-height: 1.6em;
+}
+.box-1 h1 {
+    font-family: "Times New Roman", Times, serif;
+  }
+.box-1 {
+  background-color: purple;
+  border: 5px red solid;
+
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.container-1 {
+  width: 80%;
+  margin: auto;
+}
+
+
+
+.container-form {
+  width: 80%;
+  margin: auto;
+}
+
+.container-form input {
+  width: 100%;
+}
+
+.container-form {
+  background-color: lightgray;
+  padding: 20px;
+}
+
+.home-link-1 {
+  width: 80%;
+  margin: auto;
+}
+
+.block {
+  float: left;
+  width: 33.3%;
+  border: 1px solid #333;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#main-block {
+  float: left;
+  width: 70%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+#side-block {
+  float: right;
+  width: 30%;
+  margin-top: 30px;
+  padding: 5px;
+  border: 1px solid black;
+  background-color: rgba(255, 248, 220, 0.278);
+  box-sizing: border-box;
+}
+
+.button-1 {
+  float: left;
+  width: 40%;
+  margin-left: 80px;
+}
+
+.p-box {
+  border: 1px solid black;
+  width: 90%;
+  height: 500px;
+  margin: auto;
+  background-image: url(./assets/sunny-sky.jpeg);
+}
+
+.clr {
+  clear: both;
+}
+.container-main {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#main-header {
+  background-color: coral;
+}
+
+#navigation {
+  background-color: darkgrey;
+}
+
+#navigation ul {
+  padding: 0;
+  list-style: none;
+}
+
+#navigation li {
+  display: inline;
+}
+
+#navigation a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18;
+  padding-right: 15px;
+}
+
+.container3 {
+  width: 100%;
+  height: 300px;
+  border: 2px solid red;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.boxx {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  padding: 20px;
 }
