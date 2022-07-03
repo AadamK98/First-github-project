@@ -18,8 +18,9 @@ body {
   line-height: 1.6em;
 }
 .box-1 h1 {
-    font-family: "Times New Roman", Times, serif;
-  }
+  font-family: "Times New Roman", Times, serif;
+}
+
 .box-1 {
   background-color: purple;
   border: 5px red solid;
@@ -32,8 +33,6 @@ body {
   width: 80%;
   margin: auto;
 }
-
-
 
 .container-form {
   width: 80%;
@@ -49,18 +48,9 @@ body {
   padding: 20px;
 }
 
-.home-link-1 {
-  width: 80%;
-  margin: auto;
-}
 
-.block {
-  float: left;
-  width: 33.3%;
-  border: 1px solid #333;
-  padding: 10px;
-  box-sizing: border-box;
-}
+
+
 
 #main-block {
   float: left;
@@ -79,7 +69,7 @@ body {
   box-sizing: border-box;
 }
 
-.button-1 {
+.button {
   float: left;
   width: 40%;
   margin-left: 80px;
